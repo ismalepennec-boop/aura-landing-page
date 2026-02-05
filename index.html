@@ -63,48 +63,149 @@
                 </div>
             </div>
             <div class="hero-visual">
-                <div class="phone-mockup">
-                    <div class="phone-screen">
-                        <div class="app-header">
-                            <span class="app-greeting">Bonjour, Emma</span>
-                            <span class="app-date">Jeudi 6 Février</span>
-                        </div>
-                        <div class="app-mood">
-                            <span class="mood-label">Comment vous sentez-vous ?</span>
-                            <div class="mood-icons">
-                                <span class="mood-icon">😌</span>
-                                <span class="mood-icon active">😊</span>
-                                <span class="mood-icon">😐</span>
-                                <span class="mood-icon">😔</span>
+                <!-- Decorative elements -->
+                <div class="visual-glow"></div>
+                <div class="visual-rings">
+                    <div class="ring ring-1"></div>
+                    <div class="ring ring-2"></div>
+                    <div class="ring ring-3"></div>
+                </div>
+
+                <!-- Premium Phone Mockup -->
+                <div class="phone-wrapper">
+                    <div class="phone-mockup">
+                        <div class="phone-frame">
+                            <div class="phone-notch">
+                                <div class="notch-camera"></div>
+                            </div>
+                            <div class="phone-screen">
+                                <!-- Status bar -->
+                                <div class="status-bar">
+                                    <span class="status-time">9:41</span>
+                                    <div class="status-icons">
+                                        <svg class="status-icon" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                                            <path d="M12 3C7.46 3 3.34 4.78.29 7.67c-.18.18-.29.43-.29.71 0 .28.11.53.29.71l11 11c.39.39 1.02.39 1.41 0l11-11c.18-.18.29-.43.29-.71 0-.28-.11-.53-.29-.71C20.66 4.78 16.54 3 12 3z"/>
+                                        </svg>
+                                        <svg class="status-icon" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                                            <path d="M17 4h-3V2h-4v2H7v18h10V4z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <!-- App content -->
+                                <div class="app-content">
+                                    <div class="app-header">
+                                        <div class="header-left">
+                                            <span class="app-greeting">Bonjour, Emma</span>
+                                            <span class="app-date">Jeudi 6 Février</span>
+                                        </div>
+                                        <div class="header-avatar">
+                                            <span>E</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="app-mood-section">
+                                        <span class="mood-label">Comment vous sentez-vous ?</span>
+                                        <div class="mood-selector">
+                                            <div class="mood-option">
+                                                <span class="mood-emoji">😌</span>
+                                            </div>
+                                            <div class="mood-option active">
+                                                <span class="mood-emoji">😊</span>
+                                                <div class="mood-ring"></div>
+                                            </div>
+                                            <div class="mood-option">
+                                                <span class="mood-emoji">😐</span>
+                                            </div>
+                                            <div class="mood-option">
+                                                <span class="mood-emoji">😔</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="app-session-card">
+                                        <div class="session-visual">
+                                            <div class="session-circle">
+                                                <svg viewBox="0 0 36 36" class="progress-ring">
+                                                    <path class="progress-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                                                    <path class="progress-fill" stroke-dasharray="75, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                                                </svg>
+                                                <div class="play-icon">
+                                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                                        <path d="M8 5v14l11-7z"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="session-details">
+                                            <span class="session-label">Prochaine séance</span>
+                                            <span class="session-title">Méditation du matin</span>
+                                            <div class="session-meta">
+                                                <span class="meta-tag">10 min</span>
+                                                <span class="meta-dot"></span>
+                                                <span class="meta-tag">Débutant</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="app-stats-grid">
+                                        <div class="stat-card">
+                                            <div class="stat-icon-wrap">
+                                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                    <path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/>
+                                                </svg>
+                                            </div>
+                                            <span class="stat-value">7</span>
+                                            <span class="stat-label">Jours</span>
+                                        </div>
+                                        <div class="stat-card">
+                                            <div class="stat-icon-wrap">
+                                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                    <circle cx="12" cy="12" r="10"/>
+                                                    <path d="M12 6v6l4 2"/>
+                                                </svg>
+                                            </div>
+                                            <span class="stat-value">2h30</span>
+                                            <span class="stat-label">Ce mois</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="app-session glass-card-mini">
-                            <div class="session-info">
-                                <span class="session-title">Méditation du matin</span>
-                                <span class="session-duration">10 min · Débutant</span>
-                            </div>
-                            <div class="play-btn">▶</div>
-                        </div>
-                        <div class="app-stats-row">
-                            <div class="app-stat-card">
-                                <span class="app-stat-value">7</span>
-                                <span class="app-stat-label">Jours consécutifs</span>
-                            </div>
-                            <div class="app-stat-card">
-                                <span class="app-stat-value">2h30</span>
-                                <span class="app-stat-label">Ce mois</span>
-                            </div>
-                        </div>
+                        <div class="phone-reflection"></div>
                     </div>
                 </div>
-                <div class="floating-card card-1 glass-card">
-                    <span class="card-emoji">🧘</span>
-                    <span class="card-text">Séance terminée !</span>
+
+                <!-- Floating notification cards -->
+                <div class="floating-notification notif-1">
+                    <div class="notif-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                    </div>
+                    <div class="notif-content">
+                        <span class="notif-title">Séance terminée !</span>
+                        <span class="notif-subtitle">+15 points de sérénité</span>
+                    </div>
                 </div>
-                <div class="floating-card card-2 glass-card">
-                    <span class="card-emoji">✨</span>
-                    <span class="card-text">Nouveau niveau atteint</span>
+
+                <div class="floating-notification notif-2">
+                    <div class="notif-icon star">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <div class="notif-content">
+                        <span class="notif-title">Nouveau niveau !</span>
+                        <span class="notif-subtitle">Explorateur Zen</span>
+                    </div>
                 </div>
+
+                <!-- Floating particles -->
+                <div class="particle particle-1"></div>
+                <div class="particle particle-2"></div>
+                <div class="particle particle-3"></div>
             </div>
         </section>
 
